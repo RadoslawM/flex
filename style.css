@@ -1,0 +1,16 @@
+.flexbox__container {
+    display: flex;
+    flex-direction: row;
+}
+.flexbox__container__two{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.flexbox__container__three{
+    display: flex;
+    flex-direction: column;
+}
+.flexbox__container__four{
+    display: flex;
+    flex-direction: column-reverse
+}
