@@ -1,16 +1,70 @@
-.flexbox__container {
+.flexbox__row {
     display: flex;
     flex-direction: row;
+    background-color: blueviolet;
 }
-.flexbox__container__two{
+.flexbox__row__reverse{
     display: flex;
     flex-direction: row-reverse;
+    background-color: blue;
 }
-.flexbox__container__three{
+.flexbox__column{
     display: flex;
     flex-direction: column;
+    background-color: aqua;
 }
-.flexbox__container__four{
+.flexbox__column__reverse{
     display: flex;
     flex-direction: column-reverse
+}
+
+.flexbox__container_nowrap{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.box{
+margin: 10px;
+display: flex;
+height: 100px;
+width: 120px;
+font-family: monospace;
+font-size: 22px;
+background-color: darkgoldenrod;
+border: 1px solid black;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.flexbox__container_wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexbox__element{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ background-color: darkblue; 
+}
+.box__element{
+margin: 10px;
+display: flex;
+height: 100px;
+width: 120px;
+font-family: monospace;
+font-size: 22px;
+background-color: darkgoldenrod;
+border: 1px solid black;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.issue{
+    display: flex;
+    justify-content: center;
+}
+.box__element:nth-of-type(3){
+    flex-grow: 2;
 }
